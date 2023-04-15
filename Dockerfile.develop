@@ -19,7 +19,7 @@ COPY root/ /
 HEALTHCHECK  --interval=30s --timeout=30s --start-period=10s --retries=5 CMD curl --fail http://localhost:8989 || exit 1
 
 # label
-LABEL org.opencontainers.image.source="https://github.com/agpsn/sonarr-develop"
+#LABEL org.opencontainers.image.source="https://github.com/agpsn/sonarr-develop"
 
 # ports and volumes
 EXPOSE 8989
