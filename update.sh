@@ -12,7 +12,7 @@ if [ $GBRANCH != "develop" ]; then git checkout "develop"; fi
 	echo "Building and Pushing 'ghcr.io/agpsn/docker-sonarr:$DVERSION'"
 	docker build --quiet --force-rm --rm --tag ghcr.io/agpsn/docker-sonarr:develop --tag ghcr.io/agpsn/docker-sonarr:${DVERSION} -f ./Dockerfile.develop .
 	docker push --quiet ghcr.io/agpsn/docker-sonarr:develop; docker push --quiet ghcr.io/agpsn/docker-sonarr:$DVERSION && docker image rm -f ghcr.io/agpsn/docker-sonarr:$DVERSION
-	git tag $DVERSION && git push origin $DVERSION -f --tags
+	git tag -f $DVERSION && git push origin $DVERSION -f --tags
 	echo ""
 
 #SOURCE
