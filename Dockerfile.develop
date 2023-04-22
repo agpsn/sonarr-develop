@@ -4,6 +4,8 @@ FROM ghcr.io/agpsn/docker-base:alpine
 ARG SVERSION
 ARG SBRANCH="develop"
 
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 RUN set -xe && \
 	echo "***** update system packages *****" apk upgrade --no-cache && \
 	echo "***** install runtime packages *****" && apk add --no-cache xmlstarlet icu-libs && \

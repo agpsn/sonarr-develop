@@ -1,0 +1,1 @@
+docker run --rm -it --name "agpsn" -v "/root/.docker/config.json":"/config.json" -v "/var/run/docker.sock":"/var/run/docker.sock" -e TZ="America/Chicago" -e WATCHTOWER_CLEANUP="true" -e WATCHTOWER_INCLUDE_STOPPED="true" -e WATCHTOWER_LABEL_ENABLE="true" -e WATCHTOWER_RUN_ONCE="true" -e WATCHTOWER_DEBUG="true" ghcr.io/containrrr/watchtower:latest
