@@ -1,5 +1,3 @@
-<--![ ](https://img.shields.io/github/v/tag/agpsn/sonarr-develop?color=00CCFF&label=:develop&style=plastic&logo=%20)-->
-
 ![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/size?tag=develop?color=00CCFF)
 ![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/latest_tag?trim=major&label=develop)
 
