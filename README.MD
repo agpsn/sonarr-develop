@@ -1,4 +1,4 @@
-![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/size?tag=develop?color=00CCFF)
+![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/size?tag=develop?color=#00CCFF)
 ![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/latest_tag?trim=major&label=develop)
 
 ```
