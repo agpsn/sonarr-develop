@@ -1,5 +1,5 @@
-![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/size?tag=develop&color=black&label=VERSION&trim=patch&trim=major&ignore=sha256*)
-![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/latest_tag?color=#00ccff&label=VERSION&trim=patch&trim=major&ignore=sha256*)
+![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/size?tag=develop&color=black&label=SIZE&trim=patch&trim=major&ignore=sha256*)
+![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/latest_tag?color=black&label=VERSION&trim=patch&trim=major&ignore=sha256*)
 
 ```
 docker run -d \
