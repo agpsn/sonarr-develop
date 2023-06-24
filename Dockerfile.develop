@@ -3,6 +3,7 @@ FROM ghcr.io/agpsn/alpine-base:latest
 #MAIN
 ARG SVERSION
 ARG SBRANCH="develop"
+ARG DEBIAN_FRONTEND=noninteractive
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
