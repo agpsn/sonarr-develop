@@ -1,3 +1,4 @@
+<img src="https://raw.githubusercontent.com/agpsn/sonarr-develop/develop/logo.png" width="150" />
 ![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/latest_tag?color=%23000000&ignore=latest&label=VERSION&trim=)
 ![ ](https://ghcr-badge.egpl.dev/agpsn/docker-sonarr/size?color=%23000000&tag=develop&label=SIZE&trim=)
 
